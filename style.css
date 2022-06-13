@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    position: absolute;
+    top: 15px;
+}
+
+.circle-wrapper {
+    height: 250px;
+    overflow: hidden;
+}
+
+.circle {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+#pointer {
+    position: absolute;
+    top: 245px;
+    height: 5px;
+    width: 250px;
+    background-color: black;
+    transform-origin: right center;
+}
+#procent{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
